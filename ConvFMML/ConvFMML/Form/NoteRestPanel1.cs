@@ -40,6 +40,7 @@ namespace ConvFMML.Form
             comboBox3.SelectedIndex = settings.LengthStyle;
             checkBox1.Checked = settings.DotEnable;
             numericUpDown1.Value = settings.DotLength;
+            numericUpDown2.Value = settings.DefaultLength;
         }
 
         public override void UpdateSelections(MMLStyle mmlstyle)
@@ -121,6 +122,12 @@ namespace ConvFMML.Form
         {
             var nud = (NumericUpDown)sender;
             settings.DotLength = nud.Value;
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+            var nud = (NumericUpDown)sender;
+            settings.DefaultLength = nud.Value;
         }
     }
 }

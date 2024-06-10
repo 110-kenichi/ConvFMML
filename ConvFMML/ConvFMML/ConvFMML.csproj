@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConvFMML</RootNamespace>
     <AssemblyName>ConvFMML</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -129,6 +129,7 @@
     <Compile Include="Data\MML\Command\MUCOM88\MUCOM88Pan.cs" />
     <Compile Include="Data\MML\Command\MUCOM88\MUCOM88Rest.cs" />
     <Compile Include="Data\MML\Command\MUCOM88\MUCOM88Tempo.cs" />
+    <Compile Include="Data\MML\Command\MUCOM88\MUCOM88Length.cs" />
     <Compile Include="Data\MML\Command\MUCOM88\MUCOM88Volume.cs" />
     <Compile Include="Data\MML\Command\MXDRV\MXDRVNote.cs" />
     <Compile Include="Data\MML\Command\MXDRV\MXDRVPan.cs" />
@@ -154,6 +155,7 @@
     <Compile Include="Data\MML\Command\Instrument.cs" />
     <Compile Include="Data\MML\Command\Rest.cs" />
     <Compile Include="Data\MML\Command\Tempo.cs" />
+    <Compile Include="Data\MML\Command\Length.cs" />
     <Compile Include="Data\MML\Command\Volume.cs" />
     <Compile Include="Data\MML\MML.cs" />
     <Compile Include="Data\MML\Part.cs" />
@@ -304,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\MMLExpressionPanel2.resx">
       <DependentUpon>MMLExpressionPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\NoteRestPanel1.ja-JP.resx">
+      <DependentUpon>NoteRestPanel1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\NoteRestPanel1.ja.resx">
       <DependentUpon>NoteRestPanel1.cs</DependentUpon>

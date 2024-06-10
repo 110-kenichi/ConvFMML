@@ -41,6 +41,11 @@ namespace ConvFMML.Converter
             return new MUCOM88Rest(length, relation);
         }
 
+        protected override Length CreateLengthInstance(int length, MMLCommandRelation relation)
+        {
+            return new MUCOM88Length(length, relation);
+        }
+
         protected override MML CreateMMLInstance(List<Part> partList, string title, int countsPerWholeNote)
         {
             return new MML(partList, title, countsPerWholeNote, MMLStyle.MUCOM88);

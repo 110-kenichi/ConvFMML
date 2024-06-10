@@ -21,7 +21,8 @@ namespace ConvFMML.Data.MML.Command.MUCOM88
             {
                 str += Name;
             }
-            str += len.ToString();
+            if(len != (int)nrSettings.DefaultLength)
+                str += len.ToString();
 
             int dotlen = 0;
             for (int i = 1; i < Length.Count; i++)
@@ -35,7 +36,10 @@ namespace ConvFMML.Data.MML.Command.MUCOM88
                 {
                     if (nrSettings.TieStyle == 0)       // Tie and Name
                     {
-                        str = str + "&" + Name + Length[i];
+                        if(Length[i] != (int)nrSettings.DefaultLength)
+                            str = str + "&" + Name + Length[i];
+                        else
+                            str = str + "&" + Name;
                     }
                     else       // Tie only
                     {

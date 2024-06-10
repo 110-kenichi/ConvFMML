@@ -78,6 +78,7 @@ namespace ConvFMML
             public string TieCommandCustom { set; get; } = "";
             public int TieStyle { set; get; } = 0;
             public bool UnuseTiedRest { set; get; } = false;
+            public decimal DefaultLength { set; get; } = 8;
         }
 
         [Serializable]

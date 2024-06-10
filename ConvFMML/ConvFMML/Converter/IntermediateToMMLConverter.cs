@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConvFMML.Data.MML.Command;
 using ConvFMML.Properties;
 
 namespace ConvFMML.Converter
@@ -84,6 +85,7 @@ namespace ConvFMML.Converter
                 int barCnt = 1;
                 Key key = Key.CMaj;
                 var barList = new List<Data.MML.Bar>();
+                bool firstNote = true;
 
                 for (int i = 1; i <= track.Length.Bar; i++)
                 {
@@ -189,6 +191,15 @@ namespace ConvFMML.Converter
                         }
                         else if (addCommandName == typeof(Data.Intermediate.Event.Rest).Name)
                         {
+                            if (firstNote)
+                            {
+                                addCommand = CreateLengthInstance(8, relation);
+                                comList.AddLast(addCommand);
+
+                                firstNote = false;
+                            }
+
+
                             if (comList.Count > 0)
                             {
                                 comList.Last.Value.CommandRelation &= ~MMLCommandRelation.NextControl;
@@ -580,6 +591,11 @@ namespace ConvFMML.Converter
         protected abstract Data.MML.Command.Note CreateNoteInstance(int octave, string name, List<int> length, MMLCommandRelation relation);
 
         protected abstract Data.MML.Command.Rest CreateRestInstance(List<int> length, MMLCommandRelation relation);
+
+        protected virtual Data.MML.Command.Length CreateLengthInstance(int value, MMLCommandRelation relation)
+        {
+            return new Length(value, relation);
+        }
 
         private string GetSeperateSign(int curBar, int barCnt, uint tsBar, Settings.MMLExpression settings)
         {
