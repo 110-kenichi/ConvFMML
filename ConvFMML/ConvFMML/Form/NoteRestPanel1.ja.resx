@@ -121,7 +121,7 @@
   <data name="titleLabel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAd4AAAAXCAYAAAClDi4LAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAA21JREFUeF7t1dWaUGUYgFHs7u7u7u7CFrsb7A5s7E7sLpqhe+jubobuIWcQdASd
+        wgAADsIBFShKgAAAA21JREFUeF7t1dWaUGUYgFHs7u7u7u7CFrsb7A5s7E7sLpqhe+jubobuIWcQdASd
         37339z7cgWfvwbqGVSM1rJHCOqHRulgP66fUeANsiI1Ck41T9VqbYNPQdLPM5tgiNNsSW2FrbJOqm+e2
         xXbYHjuk6pLcjoV/S3bCzqHFLtgVu2H30HIP7Im9Qqu9sQ/2Da33w/44oPBPmwNxEA4ObQ/BoTgstDsc
         R+DI0P4oHI1jQodjcRyOL6zpeAJOxEmh08k4BaeGzqfhdJyBM9OaLrmzcDbOCaXn4rzC6tLzcUHoeiEu
@@ -142,35 +142,8 @@
   <data name="titleLabel.Text" xml:space="preserve">
     <value>音符・休符(1)</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>相対表示</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>絶対表示</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>改行後の絶対オクターブ表示</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>絶対オクターブコマンド指定</value>
-  </data>
-  <data name="comboBox2.Items" xml:space="preserve">
-    <value>&gt;でオクターブ上昇、&lt;でオクターブ下降</value>
-  </data>
-  <data name="comboBox2.Items1" xml:space="preserve">
-    <value>&lt;でオクターブ上昇、&gt;でオクターブ下降</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>相対オクターブの方向</value>
-  </data>
-  <data name="comboBox3.Items" xml:space="preserve">
-    <value>最短表記(3連符多用)</value>
-  </data>
-  <data name="comboBox3.Items1" xml:space="preserve">
-    <value>2^n分音符を多用した表記</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>音長表記指定</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>デフォルト音長</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 12</value>
@@ -186,5 +159,35 @@
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
     <value>付点の使用</value>
+  </data>
+  <data name="comboBox3.Items" xml:space="preserve">
+    <value>最短表記(3連符多用)</value>
+  </data>
+  <data name="comboBox3.Items1" xml:space="preserve">
+    <value>2^n分音符を多用した表記</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>音長表記指定</value>
+  </data>
+  <data name="comboBox2.Items" xml:space="preserve">
+    <value>&gt;でオクターブ上昇、&lt;でオクターブ下降</value>
+  </data>
+  <data name="comboBox2.Items1" xml:space="preserve">
+    <value>&lt;でオクターブ上昇、&gt;でオクターブ下降</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>相対オクターブの方向</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>絶対オクターブコマンド指定</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>相対表示</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>絶対表示</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>改行後の絶対オクターブ表示</value>
   </data>
 </root>

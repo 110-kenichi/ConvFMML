@@ -307,9 +307,6 @@
     <EmbeddedResource Include="Form\MMLExpressionPanel2.resx">
       <DependentUpon>MMLExpressionPanel2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\NoteRestPanel1.ja-JP.resx">
-      <DependentUpon>NoteRestPanel1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\NoteRestPanel1.ja.resx">
       <DependentUpon>NoteRestPanel1.cs</DependentUpon>
     </EmbeddedResource>

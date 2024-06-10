@@ -134,8 +134,8 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 75</value>
   </data>
   <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -204,9 +204,6 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 99</value>
-  </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Absolute</value>
   </data>
@@ -218,6 +215,9 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>ConvFMML.Form.BasePanel, ConvFMML, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
@@ -252,8 +252,11 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Direction of relative octave</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 29</value>
@@ -315,14 +318,14 @@
   <data name="label3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 4, 0</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
   </data>
   <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -335,9 +338,6 @@
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
   </data>
   <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
     <value>317, 19</value>
@@ -399,8 +399,8 @@
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>491, 58</value>
   </data>
-  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>317, 20</value>
+  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 99</value>
   </data>
   <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 16</value>
@@ -408,8 +408,11 @@
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 73</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 23</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 23</value>
@@ -450,14 +453,14 @@
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 12</value>
+  </data>
+  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 20</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -483,17 +486,11 @@
   <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 75</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Maximum dot count</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Note length style</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 23</value>
   </data>
   <data name="&gt;&gt;titleLabel.Name" xml:space="preserve">
     <value>titleLabel</value>
@@ -504,7 +501,7 @@
   <data name="titleLabel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAd4AAAAXCAYAAAClDi4LAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAA21JREFUeF7t1dWaUGUYgFHs7u7u7u7CFrsb7A5s7E7sLpqhe+jubobuIWcQdASd
+        vQAADr0BR/uQrQAAA21JREFUeF7t1dWaUGUYgFHs7u7u7u7CFrsb7A5s7E7sLpqhe+jubobuIWcQdASd
         37339z7cgWfvwbqGVSM1rJHCOqHRulgP66fUeANsiI1Ck41T9VqbYNPQdLPM5tgiNNsSW2FrbJOqm+e2
         xXbYHjuk6pLcjoV/S3bCzqHFLtgVu2H30HIP7Im9Qqu9sQ/2Da33w/44oPBPmwNxEA4ObQ/BoTgstDsc
         R+DI0P4oHI1jQodjcRyOL6zpeAJOxEmh08k4BaeGzqfhdJyBM9OaLrmzcDbOCaXn4rzC6tLzcUHoeiEu
@@ -558,6 +555,9 @@
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 147</value>
   </data>
+  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>317, 19</value>
   </data>
@@ -584,5 +584,8 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
   </metadata>
 </root>
